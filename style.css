@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    height: 700px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(netflix_bg.jpg);
+    background-size: cover;
+    
+}
+.head_logo{
+    
+    background-image: url(netflix_head_logo.jpg);
+    height: 120px;
+    width: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 7px;
+}
+nav .language{
+    float: right;
+    margin-top: 22px;
+    margin-right: 20px;
+    padding-top: 10px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+}
+nav option{
+    color: black;
+}
+nav .button_sign{
+    background-color: red;
+    color: white;
+    padding: 6px 10px 6px 10px;
+    border: transparent;
+    float: right;
+    margin-top: 22px;
+    margin-right: 150px;  
+    font-weight: bold; 
+    cursor: pointer;
+}
+.r1{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+.r2{
+    font-size: 24px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+    padding-top: 16px;
+}
+.r3{
+    font-size: 20px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+    padding-top: 16px;
+}
+.text{
+    color: white;
+    text-align: center;
+}
+.email{
+    line-height: 35px;
+    display: flex;
+    padding-left: 5px;
+    background: transparent;
+    color: white;
+    padding: 7px 150px 7px 7px;
+    border:   1px solid rgb(88, 86, 86);
+    margin-left: 480px;
+    background-color: rgb(37, 35, 35);
+}
+.but{
+    display: flex;
+    background-color: red;
+    color: white;
+    width: 180px;
+    padding: 6px;
+    font-weight: bold;
+    padding-left: 12px;
+    padding-right: 10px;
+    margin-left: 800px;
+    margin-top: -52px;
+    line-height: 35px;
+    font-size: 24px;
+}
+hr{
+    border: 2.5px solid rgb(89, 87, 87);
+}
+.page_2{
+    background-color: black;
+    height: 575px;
+    display: flex;
+    justify-content: center;
+}
+.page_2 .con{
+    color: white;
+    align-self: center;
+    
+}
+.tv{
+    height: 350px;
+    width: 450px;
+    align-self: center;
+}
+video{
+    height: 220px;
+    width:250px;
+    align-self: center;
+    margin-left: -330px;
+    padding: 1px;
+}
+.page_4 video{
+    margin-top: -78px;
+   
+}
+.page_3,.page_4,.page_5,.page_6{
+    background-color: black;
+    height: 575px;
+    display: flex;
+    border: 1px solid grey;
+    justify-content: center;
+}
+#girl{
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.book{
+    height: 55px;
+    width: min-content;
+    padding-left: 6px;
+    padding-top: 3px;
+}
+.stran{
+    color: white;
+    margin-left: 60px;
+    margin-top: -50px;
+}
+.down{
+    margin-left: 60px;
+    color: blue;
+    font-size: small;
+}
+.gif{
+    margin-left: 200px;
+    margin-top: -100px;
+    height: 40px;
+    padding-bottom: 2px;
+}
+.girl_border{
+    margin-top: 260px;
+    margin-left: -330px;
+    height: 70px;
+    padding: 5px;
+    width: 260px;
+   border: 1.5px solid grey;
+   border-radius: 10px;
+   background: black;
+}
+.con_page3{
+    color: white;
+    align-self: center;
+    margin-left: 50px;
+    
+    justify-content: center;
+}
+.con_page4{
+    color: white;
+    align-self: center;
+    margin-left: 10px;
+    padding-right: 50px;
+    justify-content:center ;
+}
+.tv_2{
+    height:300px;
+    width: min-content;
+    align-self: center;
+    opacity: 1;
+}
+.page5_img{
+    margin-top: 140px;
+    height: 300px;
+    margin-left: 100px;
+}
+.page_5{
+    color: white;
+}
+.con_page5{
+    padding-left: 50px;
+    align-self: center;
+}
+.page_6{
+    height: 550px;
+    color: white;
+    justify-content: center;
+}
+button{
+    height: min-content;
+    width: 400px;
+    padding: 10px;
+    background-color: gray;
+    align-self:flex-start;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.no{
+    text-decoration: underline;
+    margin-left: 82px;
+    margin-top: -15px;
+
+}
+
+.c{
+    padding-top: 20px;
+    margin-top: 5px;
+}
+.c p{
+    padding-top: 2px;
+}
+.row_2{
+    color: white;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+
